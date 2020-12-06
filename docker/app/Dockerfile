@@ -1,0 +1,5 @@
+FROM node:15.3.0
+
+ENV APP_PATH=/app
+RUN mkdir $APP_PATH
+WORKDIR $APP_PATH
